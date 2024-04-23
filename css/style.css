@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+.backconfig{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #b88807;
+    color: aliceblue
+}
+
+.background{
+    color: aliceblue;
+    margin: 2.5em;
+    padding: 4em;
+    background-color: #000000;
+    border-radius: 3em;
+    border: rgb(116, 93, 93) double 0.8em;
+}
+body{
+    background-color: transparent;
+}
+.superimg{
+    display: flex;
+    align-content:end;
+    width: 100%;
+}
+
+.title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 4em;
+    font-family: "Bangers", system-ui;
+}
+input{
+    width: 20em;
+    padding: 0.5em;
+    border-radius: 1.5em;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: transparent;
+
+}
