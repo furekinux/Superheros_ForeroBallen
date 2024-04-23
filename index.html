@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="backconfig">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +8,16 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <h1>Super heros and villians</h1>
-    <label for="heroId">Enter the #ID of the hero you want to check out.</label>
-    <input type="number" id="heroId" value="70" min="1" max="731"></input>
-    <button onclick="fetchSuperHero()">Begin searching</button>
-    <div id="superHeroInfo">
-    
+    <div class="background">
+        <h1 class="title">Super heros and villians</h1>
+        <br class="center">
+            <label for="heroId">Enter the #ID of the hero you want to check out.</label>
+            <br><input type="number" id="heroId" value="70" min="1" max="731"></input></br>
+        </br>
+        <button onclick="fetchSuperHero()"></button>
+        <div id="superHeroInfo">
+        
+        </div>
     </div>
 </body>
 <script src="js/script.js"></script>
