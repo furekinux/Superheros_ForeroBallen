@@ -4,21 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<!--Agregar boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <h1>Super heros and villians</h1>
-    <label for="heroId">Enter the ID of the hero you want to check out.</label>
+    <label for="heroId">Enter the #ID of the hero you want to check out.</label>
     <input type="number" id="heroId" value="70" min="1" max="731"></input>
-    <button onclick="fetchSuperHero()"></button>
-    <div>
-        <div id="">
-
-        </div>
-        <div id="superImg">
-
-        </div>
+    <button onclick="fetchSuperHero()">Begin searching</button>
+    <div id="superHeroInfo">
+    
     </div>
 </body>
 <script src="js/script.js"></script>
