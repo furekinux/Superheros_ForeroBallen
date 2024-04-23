@@ -45,6 +45,8 @@ input{
     justify-content: center;
 }
 button{
+    width: 3em;
     background-color: transparent;
-
+    border: transparent;
+    
 }
