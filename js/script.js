@@ -45,7 +45,7 @@ function displayHero(data){
 
         <h3>General Info</h3>
         <p>Name: ${data.name}</p>
-        <br><img src="${img_url.url}"</br>
+        <div class="superimg"><br class="superimg"><img src="${img_url.url}"/></br></div>
 
 
         <h3>Powerstats</h3>
